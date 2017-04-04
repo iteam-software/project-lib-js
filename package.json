@@ -1,0 +1,41 @@
+{
+  "name": "project-lib-js",
+  "version": "1.0.0",
+  "description": "Baseline project for building a Javascript library.",
+  "main": "dist/index.js",
+  "module": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "test-coverage": "jest --coverage",
+    "build": "node_modules/.bin/webpack --config ./webpack.config.js --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iteam-consulting/project-lib-js.git"
+  },
+  "keywords": [
+    "javascript",
+    "starter",
+    "es2015"
+  ],
+  "author": "software@iteamnm.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iteam-consulting/project-lib-js/issues"
+  },
+  "homepage": "https://github.com/iteam-consulting/project-lib-js#readme",
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-eslint": "^7.2.1",
+    "babel-jest": "^19.0.0",
+    "babel-loader": "^6.4.1",
+    "babel-plugin-transform-es2015-modules-umd": "^6.24.0",
+    "babel-preset-es2015": "^6.24.0",
+    "eslint": "^3.19.0",
+    "eslint-config-defaults": "^9.0.0",
+    "eslint-config-google": "^0.7.1",
+    "eslint-plugin-react": "^6.10.3",
+    "jest": "^19.0.2",
+    "webpack": "^2.3.3"
+  }
+}
