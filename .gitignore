@@ -8,6 +8,9 @@ pids
 *.pid
 *.seed
 
+# Build results
+dist
+
 # Coverage directory used by tools like istanbul
 coverage
 
